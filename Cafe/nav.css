@@ -1,0 +1,127 @@
+body{
+    margin: 0%;
+    font-family:sans-serif;
+    font-size: large;
+}
+.container{
+    padding: 0px;
+}
+#nav{
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    width: 100%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    margin-right: 0%;
+    max-width: 100%;
+    z-index: 3;
+}
+#logo{
+    width: 80px;
+    height: 100px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+a{
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+}
+a:hover , a:active{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+#order-online{
+    background-image: url(barista.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+#order-online::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+#order-online .content {
+    position: relative;
+    z-index: 1;
+}
+
+#order-online h3 {
+    font-size: 36px;
+    color: #fff;
+    max-height: 20px;
+}
+
+#order-online h1 {
+    font-size: 48px;
+    color: #ff9600;
+    max-height: 20px;
+}
+#order-online p {
+    font-size: 18px;
+    color: #fff;
+    max-height: 20px;
+}
+
+button {
+    background-color: #ff9600;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #e7b16e;
+    cursor: pointer;
+}
+#step-order{
+    display: flex;
+    margin: 0%;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#step-order #restaurant{
+    display: block;
+    width: 200px;
+    font-size: medium;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+#step-order #food{
+    display: block;
+    width: 200px;
+    font-size: medium;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+#step-order #delivery{
+    display: block;
+    width: 200px;
+    font-size: medium;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
