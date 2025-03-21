@@ -1,0 +1,119 @@
+/* Global Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Main Layout */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Cart Section Styling */
+.cart-section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cart-section h1 {
+  font-size: 2.5rem;
+  color: #ff9600;
+  margin-bottom: 1.5rem;
+}
+
+/* Cart Table Styling */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+  background-color: #ff9600;
+  color: #fff;
+}
+
+.cart-table td {
+  font-size: 1rem;
+  color: #333;
+}
+
+.cart-table tr:hover {
+  background-color: #f4f4f4;
+}
+
+/* Checkout Button Styling */
+.checkout {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.btn-checkout {
+  display: inline-block;
+  background-color: #ff9600;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.btn-checkout:hover,
+.btn-checkout:focus {
+  background-color: #e7b16e;
+  transform: translateY(-2px);
+}
+
+/* Form Button for Removing Items */
+form button {
+  background-color: #ff9600;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #e7b16e;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
